@@ -2,13 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-
+import ResponsiveAppBar from './menu'
 function App() {
-  
+
   return (
-    <div>
-      <h1>Criollo Software</h1>
-    </div>
+    <>
+    <ResponsiveAppBar />
+    </>
+    
   )
 }
 
